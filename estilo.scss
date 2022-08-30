@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Silkscreen&family=Ultra&display=swap');
+
+@import "variables";
+
+
+$colorfondo:#005C53;
+
+$colornavegador:#9FC131;
+
+$colorletras:#DBF227;
+
+$colorsecundario:#0CF25D;
+
+
+
+
+body {
+    background-color: $colorfondo;
+}
+
+
+h2 {
+    color:$colorletras;
+    font-family: 'Silkscreen', cursive
+}
+
+.logo {
+    block-size:8rem;
+    margin-left: 5rem;
+}
+
+header {
+    background-color:$colornavegador;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h1 {
+        color: #DBF227;
+    }
+
+
+    nav {
+        background-color: $colornavegador;
+        
+
+        li {
+            display: inline-block;
+
+            a{
+                text-decoration: none;
+                font-weight: bold;
+                text-transform: uppercase;
+                margin-right: 15px;
+                font-size: 1.5rem;
+                color: white;
+                font-family: 'Silkscreen', cursive
+            }
+        }
+    }
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    color: white;
+}
+
+
+.imagen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: #0CF25D 2px solid;
+}
+
+footer {
+    background-color: $colorsecundario;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+padding: 5rem;
+border: #0CF25D 5px solid;
+margin-top: 6rem;
+   
+    img {
+        block-size: 2rem;
+    }
+}

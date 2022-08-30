@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Silkscreen&family=Ultra&display=swap");
+body {
+  background-color: #005C53;
+}
+
+h2 {
+  color: #DBF227;
+  font-family: "Silkscreen", cursive;
+}
+
+.logo {
+  block-size: 8rem;
+  margin-left: 5rem;
+}
+
+header {
+  background-color: #9FC131;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header h1 {
+  color: #DBF227;
+}
+header nav {
+  background-color: #9FC131;
+}
+header nav li {
+  display: inline-block;
+}
+header nav li a {
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-right: 15px;
+  font-size: 1.5rem;
+  color: white;
+  font-family: "Silkscreen", cursive;
+}
+
+h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  color: white;
+}
+
+.imagen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: #0CF25D 2px solid;
+}
+
+footer {
+  background-color: #0CF25D;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem;
+  border: #0CF25D 5px solid;
+  margin-top: 6rem;
+}
+footer img {
+  block-size: 2rem;
+}/*# sourceMappingURL=estilo.css.map */
